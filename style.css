@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+    body {
+       background-image:url(images/beautifulphoto.jpg)
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+* {
+     
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    background-color: lightpink;
+
+
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+li, a, button {
+
+    font-family: "Monserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+h4 {
+    font-family: "Monserrat", sans-serif;
+    font-weight:500;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+   
+    align-items: left;
+     padding: 50px 10%;
+
+}
+
+p {
+    font-family: "Monserrat", sans-serif;
+    font-weight:500;
+    font-size: 70px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+     padding: 50px 10%;
+
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+}
+
+.logo {
+
+    cursor: pointer;
+}
+.nav_links {
+    list-style: None;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li, a {
+
+transition: all 0.3s ease 0s;
+}
+.nav_links li, a:hover {
+
+   color: #0088a9;
+    }
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
